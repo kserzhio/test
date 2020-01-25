@@ -1,0 +1,167 @@
+{
+  "header-menu": [
+    {
+      "url": "/case-studies",
+      "name": "Case Studies"
+    },
+    {
+      "url": "/services",
+      "name": "Services"
+    },
+    {
+      "url": "/expertise",
+      "name": "Expertise"
+    },
+    {
+      "url": "/about",
+      "name": "About"
+    },
+    {
+      "url": "/contact",
+      "name": "Contact"
+    }
+  ],
+  "footer-menu": [
+    {
+      "url": "/",
+      "name": "Home"
+    },
+    {
+      "url": "/case-studies",
+      "name": "Case Studies"
+    },
+    {
+      "url": "/services",
+      "name": "Services"
+    },
+    {
+      "url": "/expertise",
+      "name": "Expertise"
+    },
+    {
+      "url": "/about",
+      "name": "About"
+    },
+    {
+      "url": "/contact",
+      "name": "Contact"
+    }
+  ],
+  "promo-text": [
+    {
+      "text": "We work with forward businesses to create new digital platforms, products and services."
+    }
+  ],
+  "tab": [
+    {
+      "name_tab": "All",
+      "about_services_title": "What We Do",
+      "about_services_description": "We launch different types of platforms and operating systems using distinguishes of every platform or operating system as adventage and a powerful tool.",
+      "tab_item": [
+        {
+          "img_url": "/assets/img/tab-content/mobile.svg",
+          "title": "Mobile Apps1",
+          "description": "We are a nimble team of designers, developers, and strategists who are passionate about helping our clients ",
+          "url_link": "/app",
+          "text_btn": "Learn More"
+        },
+        {
+          "img_url": "/assets/img/tab-content/web.svg",
+          "title": "Web Services",
+          "description": "We are a nimble team of designers, developers, and strategists who are passionate about helping our clients ",
+          "url_link": "/app",
+          "text_btn": "Learn More"
+        },
+        {
+          "img_url": "/assets/img/tab-content/augmented.svg",
+          "title": "Augmented Reality",
+          "description": "We are a nimble team of designers, developers, and strategists who are passionate about helping our clients ",
+          "url_link": "/app",
+          "text_btn": "Learn More"
+        },
+        {
+          "img_url": "/assets/img/tab-content/ui-ux.svg",
+          "title": "UX/UI Design",
+          "description": "We are a nimble team of designers, developers, and strategists who are passionate about helping our clients ",
+          "url_link": "/app",
+          "text_btn": "Learn More"
+        },
+        {
+          "img_url": "/assets/img/tab-content/dev.svg",
+          "title": "Development",
+          "description": "We are a nimble team of designers, developers, and strategists who are passionate about helping our clients ",
+          "url_link": "/app",
+          "text_btn": "Learn More"
+        }
+      ]
+    },
+    {
+      "name_tab": "Mobile App"
+
+    },
+    {
+      "name_tab": "Web Services"
+    },
+    {
+      "name_tab": "Augmented Reality"
+    },
+    {
+      "name_tab": "UX/UI Design"
+    },
+    {
+      "name_tab": "Development"
+    }
+  ],
+  "social-link": [
+    {
+      "url_links": "/facebook",
+      "class": "facebook",
+      "url_icons": "/assets/img/facebook.svg"
+    },
+    {
+      "url_links": "/linkedin",
+      "class": "linkedin",
+      "url_icons": "/assets/img/linkedin.svg"
+    },
+    {
+      "url_links": "/google",
+      "class": "google",
+      "url_icons": "/assets/img/google.svg"
+    },
+    {
+      "url_links": "/twitter",
+      "class": "twitter",
+      "url_icons": "/assets/img/twitter.svg"
+    }
+  ],
+  "info-text": [
+    {
+      "title": "Headquarters:",
+      "description": "11 E. Chavdar Street, Office 222, Kiev, Ukraine 0 copy 3"
+    },
+    {
+      "title": "USA:",
+      "email": "ua.hr@trinetix.com",
+      "description": "+1 212-336-1440",
+      "telephone": "+1 212-336-1440"
+    },
+    {
+      "title": "Ukraine:",
+      "email": "ua.hr@trinetix.com",
+      "description": "+38 044-334-2341",
+      "telephone": "+38 044-334-2341"
+    }
+  ],
+  "copy": [
+    {
+      "text": "© 2010-2015 Trinetix LLC"
+    }
+  ],
+  "about-us": [
+    {
+      "text": "We enjoy what we do. \nWorking with smart people at great projects.\nContact us if you want to work with us.",
+      "btn_text": "Contact Us",
+      "btn_url": "/about-us"
+    }
+  ]
+}

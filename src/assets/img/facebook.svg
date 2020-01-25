@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 25" width="16" height="25">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="footer">
+		<g id="social icons">
+			<g id="icon_facebook@">
+				<path id="logo" class="shp0" d="M11.07 8.13L8.15 8.13L8.15 5.77C8.15 5.08 8.39 4.58 8.73 4.58C9.08 4.58 11.07 4.58 11.07 4.58L11.07 1.63L8.63 1.63C5.39 1.63 4.65 3.73 4.65 5.18L4.65 8.13L2.31 8.13L2.31 11.09L4.65 11.09C4.65 15.11 4.61 19.38 4.61 19.38L8.15 19.38C8.15 19.38 8.15 15.06 8.15 11.09L10.49 11.09L11.07 8.13Z" />
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,11 @@
+<section class="intro-promo-app">
+  <div class="container">
+    <div class="intro-promo-app__container" *ngIf="promoText$ | async as intros;">
+      <div class="intro-promo-app__text" *ngFor="let items of intros">
+        <h1 class="intro-promo-app__text-title">
+          {{items.text}}
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>

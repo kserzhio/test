@@ -1,0 +1,56 @@
+<div class="container">
+  <div>
+    <ng-container *ngFor="let date of table$">
+      <div *ngFor="let item of date.country">
+        {{item.title}}
+       </div>
+    </ng-container>
+    <ng-container *ngFor="let date of table$;let index = index;">
+      <div *ngIf="date.name">
+        <input type="checkbox"
+               (change)="checkBox(date.checked, date)"
+               [(ngModel)]="date.checked"
+        >
+      </div>
+    </ng-container>
+  </div>
+  <table>
+    <tbody>
+      <tr>
+        <ng-container *ngFor="let date of table$">
+          <td *ngFor="let item of date.period;let index = index;">
+           <span> {{item.name}}</span>
+            <span>{{item.total}}</span>
+          </td>
+        </ng-container>
+      </tr>
+      <tr>
+        <span
+          (click)="change()"
+          class="line">
+
+        </span>
+        <span
+          (click)="change()"
+          class="line">
+
+        </span>
+      </tr>
+    <tr>
+      <ng-container *ngFor="let date of table$">
+          <ng-container *ngFor="let item of date.rate; let index = index;">
+            <td [class.active]="date.cell > index">
+              <input type="text"
+                     (dblclick)="copyValue($event,item)"
+                     (click)="openLine()"
+                     class="js-controlled-input"
+                     placeholder = "-- h"
+                     [value]="item.value + ' h'"
+              >
+            </td>
+          </ng-container>
+      </ng-container>
+    </tr>
+    </tbody>
+  </table>
+</div>
